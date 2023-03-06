@@ -208,7 +208,15 @@ background-color: mistyrose;
     
 }
 
+@media screen and (max-width:800px){
+    .board {        
+        justify-content: left;
+    }
 
+    main div{
+        width:100px;
+    }
+}
 
 /* #subnavbar-explore div {
     height: 48px;
