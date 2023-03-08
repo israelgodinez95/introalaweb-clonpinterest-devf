@@ -128,7 +128,8 @@ input:focus{
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 main div {
@@ -208,13 +209,17 @@ background-color: mistyrose;
     
 }
 
-@media screen and (max-width:800px){
-    .board {        
-        justify-content: left;
+@media screen and (max-width:1000px){
+    #subnavbar-explore {
+        display: none;
+    }
+    
+    #subnavbar {
+        justify-content: space-between;
     }
 
     main div{
-        width:100px;
+        width: 150px;
     }
 }
 
